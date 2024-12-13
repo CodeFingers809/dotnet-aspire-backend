@@ -1,0 +1,37 @@
+// {
+//     "version": "0.2.0",
+//     "compounds": [
+//         {
+//             "name": "Run all",
+//             "configurations": [
+//                 "Run api",
+//                 "Run web"
+//             ]
+//         }
+//     ],
+//     "configurations": [
+//         {
+//             "name": "Run api",
+//             "type": "dotnet",
+//             "request": "launch",
+//             "projectPath": "${workspaceFolder}\\Api\\Api.csproj"
+//         },
+//         {
+//             "name": "Run web",
+//             "type": "dotnet",
+//             "request": "launch",
+//             "projectPath": "${workspaceFolder}\\MyWeatherHub\\MyWeatherHub.csproj"
+//         }
+//     ]
+// }
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run AppHost",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}\\AppHost\\AppHost.csproj"
+    }
+  ]
+}
